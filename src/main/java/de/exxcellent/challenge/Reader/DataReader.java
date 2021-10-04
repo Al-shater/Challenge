@@ -23,5 +23,13 @@ public abstract class DataReader {
         return new CsvReader(path);
     }
 
+    /**
+     *
+     * @param path of Json file
+     * @return new Object JsonReader();
+     */
+    public static JsonReader createJsonReader(String path){
+        return new JsonReader(path);
+    }
 
 }
