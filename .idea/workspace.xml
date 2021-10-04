@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4f15304-229d-45df-a862-6de224450c40" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/exxcellent/challenge/Analyzer/SmallestValueFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/exxcellent/challenge/Analyzer/SmallestValueFinder.java" afterDir="false" />
-    </list>
+    <list default="true" id="f4f15304-229d-45df-a862-6de224450c40" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -62,7 +60,7 @@
       <recent name="de.exxcellent.challenge.Analyzer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.CsvReaderTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.exxcellent.challenge.App" />
       <module name="challenge" />
@@ -91,6 +89,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CsvReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.exxcellent.challenge.Reader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.exxcellent.challenge.Reader" />
+      <option name="MAIN_CLASS_NAME" value="de.exxcellent.challenge.Reader.CsvReaderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CsvReaderTest.findRow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="challenge" />
       <extension name="coverage">
@@ -107,7 +120,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallestValueFinderTest.findSmallestValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SmallestValueFinderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="challenge" />
       <extension name="coverage">
         <pattern>
@@ -117,18 +130,18 @@
       </extension>
       <option name="PACKAGE_NAME" value="de.exxcellent.challenge.Analyzer" />
       <option name="MAIN_CLASS_NAME" value="de.exxcellent.challenge.Analyzer.SmallestValueFinderTest" />
-      <option name="METHOD_NAME" value="findSmallestValue" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CsvReaderTest" />
+        <item itemvalue="JUnit.SmallestValueFinderTest" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.CsvReaderTest.findRow" />
         <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.SmallestValueFinderTest.findSmallestValue" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633357155778</updated>
       <workItem from="1633357157258" duration="6009000" />
-      <workItem from="1633386324691" duration="650000" />
+      <workItem from="1633386324691" duration="1014000" />
     </task>
     <task id="LOCAL-00001" summary="new Branch for solution">
       <created>1633358238405</created>
@@ -199,7 +212,35 @@
       <option name="project" value="LOCAL" />
       <updated>1633386893152</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="create Class SmallestValueFinder()">
+      <created>1633387064085</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1633387064085</updated>
+    </task>
+    <task id="LOCAL-00010" summary="create Class JsonReader()">
+      <created>1633387147294</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1633387147294</updated>
+    </task>
+    <task id="LOCAL-00011" summary="create Class JsonReader">
+      <created>1633387167087</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1633387167087</updated>
+    </task>
+    <task id="LOCAL-00012" summary="find the dayWithSmallestTempSpread and the teamWithSmallestGoalSpread">
+      <created>1633387284657</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1633387284657</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +255,10 @@
     <MESSAGE value="create Branch for the solution" />
     <MESSAGE value="create abstract class DataReader and subclass CsvReader" />
     <MESSAGE value="create Method findRow(String columnName) and Exception Class  if the ColumnName not found" />
-    <option name="LAST_COMMIT_MESSAGE" value="create Method findRow(String columnName) and Exception Class  if the ColumnName not found" />
+    <MESSAGE value="create Class SmallestValueFinder()" />
+    <MESSAGE value="create Class JsonReader()" />
+    <MESSAGE value="create Class JsonReader" />
+    <MESSAGE value="find the dayWithSmallestTempSpread and the teamWithSmallestGoalSpread" />
+    <option name="LAST_COMMIT_MESSAGE" value="find the dayWithSmallestTempSpread and the teamWithSmallestGoalSpread" />
   </component>
 </project>
