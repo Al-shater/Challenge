@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4f15304-229d-45df-a862-6de224450c40" name="Changes" comment="" />
+    <list default="true" id="f4f15304-229d-45df-a862-6de224450c40" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/de/exxcellent/challenge/football.csv" beforeDir="false" afterPath="$PROJECT_DIR$/football.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/de/exxcellent/challenge/weather.csv" beforeDir="false" afterPath="$PROJECT_DIR$/weather.csv" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -37,7 +42,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Repo/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -137,6 +142,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633357155778</updated>
       <workItem from="1633357157258" duration="6009000" />
+      <workItem from="1633386324691" duration="349000" />
     </task>
     <task id="LOCAL-00001" summary="new Branch for solution">
       <created>1633358238405</created>
@@ -173,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633382606504</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="create Branch for the solution">
+      <created>1633386382491</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1633386382491</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +198,7 @@
     <MESSAGE value="create SmallestValueFinder and finding the Day with SmallestValue into weather.csv" />
     <MESSAGE value="create JsonReader and finding the best Team into football.csv" />
     <MESSAGE value="create Test of SmallestValueFinderTest and CsvReaderTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="create Test of SmallestValueFinderTest and CsvReaderTest" />
+    <MESSAGE value="create Branch for the solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="create Branch for the solution" />
   </component>
 </project>
