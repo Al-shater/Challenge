@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4f15304-229d-45df-a862-6de224450c40" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/de/exxcellent/challenge/football.csv" beforeDir="false" afterPath="$PROJECT_DIR$/football.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/de/exxcellent/challenge/weather.csv" beforeDir="false" afterPath="$PROJECT_DIR$/weather.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/exxcellent/challenge/Analyzer/SmallestValueFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/exxcellent/challenge/Analyzer/SmallestValueFinder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633357155778</updated>
       <workItem from="1633357157258" duration="6009000" />
-      <workItem from="1633386324691" duration="349000" />
+      <workItem from="1633386324691" duration="650000" />
     </task>
     <task id="LOCAL-00001" summary="new Branch for solution">
       <created>1633358238405</created>
@@ -187,7 +185,21 @@
       <option name="project" value="LOCAL" />
       <updated>1633386382491</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="create abstract class DataReader and subclass CsvReader">
+      <created>1633386720220</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1633386720220</updated>
+    </task>
+    <task id="LOCAL-00008" summary="create Method findRow(String columnName) and Exception Class  if the ColumnName not found">
+      <created>1633386893152</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1633386893152</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +212,8 @@
     <MESSAGE value="create JsonReader and finding the best Team into football.csv" />
     <MESSAGE value="create Test of SmallestValueFinderTest and CsvReaderTest" />
     <MESSAGE value="create Branch for the solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="create Branch for the solution" />
+    <MESSAGE value="create abstract class DataReader and subclass CsvReader" />
+    <MESSAGE value="create Method findRow(String columnName) and Exception Class  if the ColumnName not found" />
+    <option name="LAST_COMMIT_MESSAGE" value="create Method findRow(String columnName) and Exception Class  if the ColumnName not found" />
   </component>
 </project>
