@@ -58,7 +58,7 @@
       <recent name="de.exxcellent.challenge.Analyzer" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CsvReaderTest.findRow">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.exxcellent.challenge.App" />
       <module name="challenge" />
@@ -121,10 +121,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.CsvReaderTest.findRow" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.SmallestValueFinderTest.findSmallestValue" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
