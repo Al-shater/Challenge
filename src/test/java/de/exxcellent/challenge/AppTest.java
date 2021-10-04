@@ -1,7 +1,10 @@
 package de.exxcellent.challenge;
 
+import de.exxcellent.challenge.Exceptions.ColumnNotFoundException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -24,7 +27,7 @@ class AppTest {
     }
 
     @Test
-    void runFootball() {
+    void runFootball() throws ColumnNotFoundException, IOException {
         App.main("--football", "football.csv");
     }
 
